@@ -14,14 +14,6 @@ foreach( $sampleList as $val )
 {
     echo binSearch( $sampleList, $val ) .'<br/>';
 }
-// > 0
-// > 1
-// > 2
-// > 3
-// > 4
-// > 5
 
-echo binSearch( $sampleList, -1 ) .'<br/>';
-echo binSearch( $sampleList, 50 ) .'<br/>';
-// > не найдено
-// > не найдено
+echo binSearch( $sampleList, -1 ) .'<br/>'; // > не найдено
+echo binSearch( $sampleList, 50 ) .'<br/>'; // > не найдено
